@@ -60,7 +60,7 @@ body{
 }
 
 .navbar button a{
-    color: white;
+    color: #212529;
     font-size: 17px;
     font-weight: 600;
 }
@@ -129,5 +129,62 @@ body{
 
 .titulo h1 i{
     font-size: 45px;
+}
+
+
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+    padding-top: 200px;
+    color: #f8a114;
+}
+
+.infos .info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #f8a114;
+    height: 300px;
+    padding: 10px 20px;
+    color: #f8a114;
+    border-radius: 8px;
+}
+
+.info2 .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f8a114;
+}
+
+.descricao h3{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+    font-size: 24px;
+    align-items: center;
+
+}
+
+.descricao .moeda{
+    padding: 40px 0px;
+}
+
+.descricao .preco{
+    height: 40px;
+    width: 130px;
+    background-color: #f8a114;
+    color: #212529;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    /* margin-top: 0px; */
 }
 

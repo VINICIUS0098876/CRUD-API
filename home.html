@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="home.css">
+    <script src="coin.js" defer></script>
     <title>Home</title>
 </head>
 <body>
@@ -24,13 +25,38 @@
 
     <div class="pesquisa">
         <i class='bx bx-search-alt-2'></i>
-        <input type="text" >
+        <input type="text" id="pesquisa">
         <button type="button">Pesquisar</button>
     </div>
 
     <section class="info">
         <div class="titulo">
-            <h1>CRUD | BITCOIN<i class='bx bx-bitcoin'></i></h1>
+            <h1>CRUD | COINS<i class='bx bx-bitcoin'></i></h1>
+        </div>
+        <div class="infos">
+            <div class="info2">
+            <div class="descricao">
+                <h3>
+                    <i class='bx bxl-bitcoin'></i>
+                    BitCoin
+                </h3>
+                <p class="moeda">
+                    O Bitcoin é uma moeda digital descentralizada, <br> criada em 2009, com oferta limitada a 21 milhões, <br> utilizada para investimento e pagamentos, sujeita <br> a desafios regulatórios e de segurança.</p>
+                <p class="preco" id="preco">BRL</p>
+            </div>
+        </div>
+            <div class="info3">
+                <div class="descricao">
+                    <h3>Ethereum</h3>
+                    <p class="preco" id="preco">BRL</p>
+                </div>
+            </div>
+            <div class="info4">
+                <div class="descricao">
+                    <h3>Binance Coin</h3>
+                    <p class="preco" id="preco">BRL</p>
+                </div>
+            </div>
         </div>
     </section>
     
