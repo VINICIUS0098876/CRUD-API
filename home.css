@@ -65,110 +65,69 @@ body{
     font-weight: 600;
 }
 
-/* Login */
 
-main{
-    height: 80vh;
+.pesquisa{
+    height: 130px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-
-main .login{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding: 10px 20px;
+}
+
+.pesquisa i{
+    color: #212529;
+    background-color: #f8a114;
+    height: 40px;
+    width: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa input{
     border: 2px solid #f8a114;
-    border-radius: 5px;
-    /* align-items: center; */
-}
-
-.login h1{
-    padding-bottom: 20px;
-    color: #f8a114;
-    text-transform: uppercase;
-}
-
-.login label{
+    outline: none;
     font-size: 24px;
     color: #f8a114;
-    align-items: center;
-    display: flex;
-    gap: 10px;
-    padding-top: 20px;
+    background-color: #212529;
+    height: 40px;
+    width: 300px;
 }
 
-.login input{
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    color: #f8a114;
-    font-size: 20px;
-}
-
-form input{
-    width: 100%;
-}
-
-.login a{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    color: #f8a114;
-    padding-top: 10px;
-}
-
-.login .entrar{
+.pesquisa button{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
-}
-
-.entrar button a:hover{
-    text-decoration: none;
-}
-
-.login button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 40px;
+    border: 2px solid #f8a114;
+    background-color: #212529;
+    color: #f8a114;
     padding: 10px 20px;
-    background-color: #ffb742;
-    border: none;
-    width: 200px;
-    border-radius: 8px;
-    transition: 0.5s ease;
+    font-size: 15px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
     cursor: pointer;
-}
-
-.login button a{
-    padding: 0;
-    color: #fff;
     font-weight: 600;
 }
 
-.login a:hover{
-    text-decoration: underline;
-}
-
-.login button:hover{
-    background-color: #f8a114;
-    transform: scale(1.1);
-}
-
-
-.logo{
+.titulo{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
-    width: 400px;
+
 }
 
-.logo h1{
-    font-size: 20rem;
+.titulo h1{
     color: #f8a114;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
 }
+
+.titulo h1 i{
+    font-size: 45px;
+}
+
